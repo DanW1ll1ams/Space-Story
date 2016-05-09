@@ -286,6 +286,7 @@
 				CE7A147D1CDF664900A112A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
