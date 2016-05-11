@@ -24,7 +24,7 @@
                                 <rect key="frame" x="246" y="522" width="108" height="30"/>
                                 <state key="normal" title="Start Adventure"/>
                                 <connections>
-                                    <segue destination="Xig-tg-PGM" kind="show" id="J3q-9Q-waQ"/>
+                                    <segue destination="Xig-tg-PGM" kind="show" identifier="startAdventure" id="J3q-9Q-waQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="-377"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Controller-->
         <scene sceneID="4Ob-e6-dzO">
             <objects>
-                <viewController id="Xig-tg-PGM" sceneMemberID="viewController">
+                <viewController id="Xig-tg-PGM" customClass="PageController" customModule="SpaceStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GOc-Mp-Sts"/>
                         <viewControllerLayoutGuide type="bottom" id="CQ7-8w-uEN"/>

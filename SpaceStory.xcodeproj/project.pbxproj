@@ -13,6 +13,7 @@
 		CE7A14741CDF664900A112A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7A14731CDF664900A112A5 /* Assets.xcassets */; };
 		CE7A14771CDF664900A112A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A14751CDF664900A112A5 /* LaunchScreen.storyboard */; };
 		CEAEE5AE1CE0EDA5000AE8F2 /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEE5AD1CE0EDA5000AE8F2 /* InteractiveStory.swift */; };
+		CEB7CD1B1CE34DCA00F2E8E7 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7CD1A1CE34DCA00F2E8E7 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE7A14761CDF664900A112A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7A14781CDF664900A112A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAEE5AD1CE0EDA5000AE8F2 /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
+		CEB7CD1A1CE34DCA00F2E8E7 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CE7A146C1CDF664900A112A5 /* AppDelegate.swift */,
 				CE7A146E1CDF664900A112A5 /* ViewController.swift */,
 				CEAEE5AD1CE0EDA5000AE8F2 /* InteractiveStory.swift */,
+				CEB7CD1A1CE34DCA00F2E8E7 /* PageController.swift */,
 				CE7A14701CDF664900A112A5 /* Main.storyboard */,
 				CE7A14731CDF664900A112A5 /* Assets.xcassets */,
 				CE7A14751CDF664900A112A5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB7CD1B1CE34DCA00F2E8E7 /* PageController.swift in Sources */,
 				CEAEE5AE1CE0EDA5000AE8F2 /* InteractiveStory.swift in Sources */,
 				CE7A146F1CDF664900A112A5 /* ViewController.swift in Sources */,
 				CE7A146D1CDF664900A112A5 /* AppDelegate.swift in Sources */,
