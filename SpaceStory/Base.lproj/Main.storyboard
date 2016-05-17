@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -27,14 +28,26 @@
                                     <segue destination="Xig-tg-PGM" kind="show" identifier="startAdventure" id="J3q-9Q-waQ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DIK-6C-UFt">
+                                <rect key="frame" x="44" y="452" width="512" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BUh-3q-J6R"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="DIK-6C-UFt" secondAttribute="trailing" constant="24" id="17c-Um-D7A"/>
                             <constraint firstItem="q09-uc-IjB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="24I-VE-HpL"/>
+                            <constraint firstItem="DIK-6C-UFt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="3Kq-EV-Hdb"/>
+                            <constraint firstItem="a2k-JL-HhF" firstAttribute="top" secondItem="DIK-6C-UFt" secondAttribute="bottom" constant="40" id="AiW-xm-tuW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a2k-JL-HhF" secondAttribute="bottom" constant="48" id="I8m-Ty-5XI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a2k-JL-HhF" secondAttribute="bottom" constant="48" id="NbK-IS-Sga"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a2k-JL-HhF" secondAttribute="bottom" constant="48" id="Ryb-eq-igA"/>
                             <constraint firstItem="q09-uc-IjB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VY6-6L-7Yw"/>
+                            <constraint firstItem="DIK-6C-UFt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7H-ye-xyo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="q09-uc-IjB" secondAttribute="bottom" id="ewP-aA-fEI"/>
                             <constraint firstAttribute="trailing" secondItem="q09-uc-IjB" secondAttribute="trailing" id="oHH-Fd-FS8"/>
                             <constraint firstItem="a2k-JL-HhF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zIM-Mo-swu"/>
@@ -47,6 +60,10 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Ien-fr-Pqk"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="DIK-6C-UFt" id="s10-4O-Syg"/>
+                        <outlet property="textFieldBottomConstraint" destination="AiW-xm-tuW" id="pgm-7H-tlT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
